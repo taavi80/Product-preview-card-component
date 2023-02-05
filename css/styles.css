@@ -107,11 +107,12 @@ button:hover {
 
 @media (min-width: 1440px) {
     html {
-        font-size: 20px;
+        /* font-size: 20px; */
     }
 
     .component {
-        max-width: 790px;
+        max-width: 590px;
+        /* max-width: 790px; */
         display: flex;
     }
 
@@ -127,33 +128,33 @@ button:hover {
     }
     
     h1,h4,main p{
-        margin-bottom: 0;
+        /* margin-bottom: 0; */
     }
 
     h1 {
         max-width: 240px;
-        line-height: 2.2rem;
+        /*line-height: 2.2rem; */
     }
     
     h4 {
-        letter-spacing: 5.5px;
+        /* letter-spacing: 5.5px; */
     }
 
     main p {
-        font-size: 18px;
+        /* font-size: 18px; */
     }
 
     ul {
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 
     .previous {
-        margin-left: 1.6rem;
+        /* margin-left: 1.6rem; */
     }
 
     button{
-        font-size: 16px;
-        padding: .3rem;
+        /* font-size: 16px; */
+        /* padding: .3rem; */
     }
 
 }
