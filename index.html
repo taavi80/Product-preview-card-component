@@ -11,158 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <!-- <link rel="stylesheet" href="/css/styles.css" /> -->
-    <style>
-      :root {
-        --Dark-cyan: hsl(158, 36%, 37%);
-        --Cream: hsl(30, 38%, 92%);
-        --Very-dark-blue: hsl(212, 21%, 14%);
-        --Dark-grayish-blue: hsl(228, 12%, 48%);
-        --White: hsl(0, 0%, 100%);
-      }
-
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        min-height: 100vh;
-        background-color: var(--Cream);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .component {
-        max-width: 375px;
-        background-color: var(--White);
-        font-family: "Montserrat", sans-serif;
-        color: var(--Dark-grayish-blue);
-        border-radius: 10px;
-      }
-
-      img {
-        width: 100%;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        object-fit: cover;
-        display: block;
-      }
-
-      main {
-        padding: 1.3rem;
-      }
-
-      h1 {
-        font-family: "Fraunces", serif;
-        color: var(--Very-dark-blue);
-        line-height: 2rem;
-        margin-bottom: 1.3rem;
-      }
-
-      h4 {
-        font-size: 0.8rem;
-        font-weight: 300;
-        letter-spacing: 4.5px;
-        margin-bottom: 0.7rem;
-      }
-
-      main p {
-        max-width: 295px;
-        font-family: "Montserrat", sans-serif;
-        font-size: 14px;
-        line-height: 1.5rem;
-        margin-bottom: 1.5rem;
-      }
-
-      ul {
-        max-width: 193px;
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 1rem;
-      }
-
-      .current {
-        color: var(--Dark-cyan);
-        font-family: "Fraunces", serif;
-        font-size: 2rem;
-      }
-
-      .previous {
-        font-size: 0.8rem;
-      }
-
-      button {
-        width: 100%;
-        background-color: var(--Dark-cyan);
-        color: var(--White);
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        border: none;
-        border-radius: 5px;
-        padding: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      button:hover {
-        background-color: hsl(159, 34%, 16%);
-        cursor: pointer;
-      }
-
-      .cart-img {
-        width: 6%;
-        margin-right: 13px;
-      }
-
-      @media (min-width: 1440px) {
-        html {
-          font-size: 20px;
-        }
-        .component {
-          max-width: 790px;
-          display: flex;
-        }
-        img {
-          border-top-right-radius: 0;
-          border-bottom-left-radius: 10px;
-          max-width: 395px;
-        }
-        main {
-          padding: 1.9rem;
-          position: relative;
-        }
-        h1 {
-          max-width: 240px;
-          line-height: 2.2rem;
-        }
-        h4 {
-          letter-spacing: 5.5px;
-        }
-        main p {
-          font-size: 18px;
-          line-height: 1.7rem;
-        }
-        ul {
-          justify-content: space-between;
-        }
-        .previous {
-          margin-left: 1.6rem;
-        }
-        button {
-          width: initial;
-          position: absolute;
-          bottom: 1.9rem;
-          left: 1.9rem;
-          right: 1.9rem;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
@@ -171,13 +20,13 @@
         <picture>
           <source
             media="(max-width: 375px)"
-            srcset="/images/image-product-mobile.jpg"
+            srcset="images/image-product-mobile.jpg"
           />
           <source
             media="(min-width: 1440px)"
-            srcset="/images/image-product-desktop.jpg"
+            srcset="images/image-product-desktop.jpg"
           />
-          <img src="/images/image-product-mobile.jpg" alt="" />
+          <img src="images/image-product-mobile.jpg" alt="" />
         </picture>
       </header>
       <main>
@@ -192,7 +41,7 @@
           <li class="previous"><s>$169.99</s></li>
         </ul>
         <button>
-          <img class="cart-img" src="/images/icon-cart.svg" alt="" />Add to Cart
+          <img class="cart-img" src="images/icon-cart.svg" alt="" />Add to Cart
         </button>
       </main>
     </div>

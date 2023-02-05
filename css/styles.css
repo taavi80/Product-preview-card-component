@@ -21,7 +21,7 @@ body {
 }
 
 .component {
-    max-width: 335px;
+    max-width: 375px;
     background-color: var(--White);
     font-family: "Montserrat", sans-serif;
     color: var(--Dark-grayish-blue);
@@ -32,6 +32,8 @@ img {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
+    display: block;
 }
 
 main {
@@ -93,7 +95,64 @@ button {
     align-items: center;
 }
 
+button:hover {
+    background-color: hsl(159, 34%, 16%);
+    cursor: pointer;
+}
+
 .cart-img {
     width: 6%;
     margin-right: 13px;
+}
+
+@media (min-width: 1440px) {
+    html {
+        font-size: 20px;
+    }
+
+    .component {
+        max-width: 790px;
+        display: flex;
+    }
+
+    img {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        max-width: 395px;
+    }
+
+    main {
+        padding: 1.9rem;
+        position: relative;
+    }
+
+    h1 {
+        max-width: 240px;
+        line-height: 2.2rem;
+    }
+
+    h4 {
+        letter-spacing: 5.5px;
+    }
+
+    main p {
+        font-size: 18px;
+        line-height: 1.7rem;
+    }
+
+    ul {
+        justify-content: space-between;
+    }
+
+    .previous {
+        margin-left: 1.6rem;
+    }
+
+    button {
+        width: initial;
+        position: absolute;
+        bottom: 1.9rem;
+        left: 1.9rem;
+        right: 1.9rem;
+    }
 }
