@@ -123,21 +123,24 @@ button:hover {
 
     main {
         padding: 1.9rem;
-        position: relative;
+        display: grid;
+    }
+    
+    h1,h4,main p{
+        margin-bottom: 0;
     }
 
     h1 {
         max-width: 240px;
         line-height: 2.2rem;
     }
-
+    
     h4 {
         letter-spacing: 5.5px;
     }
 
     main p {
         font-size: 18px;
-        line-height: 1.7rem;
     }
 
     ul {
@@ -148,11 +151,9 @@ button:hover {
         margin-left: 1.6rem;
     }
 
-    button {
-        width: initial;
-        position: absolute;
-        bottom: 1.9rem;
-        left: 1.9rem;
-        right: 1.9rem;
+    button{
+        font-size: 16px;
+        padding: .3rem;
     }
+
 }
